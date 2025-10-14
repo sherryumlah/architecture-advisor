@@ -71,9 +71,10 @@ This makes architectural reasoning **transparent and explainable** rather than �
 <img width="892" height="353" alt="Screenshot 2025-10-14 at 4 04 33 PM" src="https://github.com/user-attachments/assets/011365db-82ea-4743-a247-00d51abf3e74" />
 
 ### Default Rules
-Microservices = Big org + High sustained load + Multi-team ownership + High ops maturity + Non-lean budget Well-Structured Monolith = Small team + Low traffic + Tight latency or strong consistency + Lean ops/budget
-Modular Monolith = Growing team(s) + Medium/high traffic + Shared deployment + Medium maturity
-Serverless + Queue = Spiky or event-driven workloads + Limited ops capacity + Acceptable eventual consistency
+* Microservices = Big org + High sustained load + Multi-team ownership + High ops maturity + Non-lean budget Well-Structured 
+* Monolith = Small team + Low traffic + Tight latency or strong consistency + Lean ops/budget
+* Modular Monolith = Growing team(s) + Medium/high traffic + Shared deployment + Medium maturity
+* Serverless + Queue = Spiky or event-driven workloads + Limited ops capacity + Acceptable eventual consistency
 
 In human terms:
 * Monolith: “One band, one stage.”
