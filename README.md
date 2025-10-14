@@ -39,7 +39,7 @@ Try it [here](https://sherryumlah.github.io/architecture-advisor/).
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/<your-username>/architecture-advisor.git
+   git clone https://github.com/sherryumlah/architecture-advisor.git
    cd architecture-advisor
    ```
 
