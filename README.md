@@ -93,3 +93,5 @@ If you’d like to tweak the scoring logic:
 - Edit `rules.ts` to adjust weights, rationale text, or trade-offs.
 - Test by running `npm run dev` and changing answers in the UI.
 
+
+<img width="392" height="979" alt="Screenshot 2025-10-14 at 2 33 24 PM" src="https://github.com/user-attachments/assets/26bcc943-49f9-4744-be6d-a38b502a7d9b" />
