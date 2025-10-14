@@ -66,6 +66,21 @@ The `rules.ts` file defines a simple scoring model:
 
 This makes architectural reasoning **transparent and explainable** rather than “black-box.”
 
+<img width="392" height="979" alt="Screenshot 2025-10-14 at 2 33 24 PM" src="https://github.com/user-attachments/assets/26bcc943-49f9-4744-be6d-a38b502a7d9b" />
+
+<img width="892" height="353" alt="Screenshot 2025-10-14 at 4 04 33 PM" src="https://github.com/user-attachments/assets/011365db-82ea-4743-a247-00d51abf3e74" />
+
+### Default Rules
+Microservices = Big org + High sustained load + Multi-team ownership + High ops maturity + Non-lean budget Well-Structured Monolith = Small team + Low traffic + Tight latency or strong consistency + Lean ops/budget
+Modular Monolith = Growing team(s) + Medium/high traffic + Shared deployment + Medium maturity
+Serverless + Queue = Spiky or event-driven workloads + Limited ops capacity + Acceptable eventual consistency
+
+In human terms:
+* Monolith: “One band, one stage.”
+* Modular Monolith: “Band members with separate tracks, still in one studio.”
+* Microservices: “Multiple bands recording in separate studios, synced by producer.”
+* Serverless + Queue: “Freelancers who show up on demand when gigs appear.”
+
 ---
 
 ## 🪜 Roadmap
@@ -94,4 +109,4 @@ If you’d like to tweak the scoring logic:
 - Test by running `npm run dev` and changing answers in the UI.
 
 
-<img width="392" height="979" alt="Screenshot 2025-10-14 at 2 33 24 PM" src="https://github.com/user-attachments/assets/26bcc943-49f9-4744-be6d-a38b502a7d9b" />
+
