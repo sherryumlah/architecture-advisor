@@ -44,10 +44,6 @@ It guides you through a short questionnaire about your **team size, traffic prof
    ```bash
    npm install
    ```
-   or  
-   ```bash
-   yarn
-   ```
 
 3. **Start the dev server**
    ```bash
