@@ -5,6 +5,7 @@
 It guides you through a short questionnaire about your **team size, traffic profile, reliability needs, and ops maturity**, then recommends the most appropriate architecture pattern — such as a well-structured monolith, modular monolith, microservices, or serverless model — with transparent scoring, trade-offs, and “tipping points” for when to evolve further.
 
 Try it [here](https://sherryumlah.github.io/architecture-advisor/)
+
 ---
 
 ## 🚀 What it does
