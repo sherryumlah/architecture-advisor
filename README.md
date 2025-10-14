@@ -74,16 +74,31 @@ This makes architectural reasoning **transparent and explainable** rather than �
 <img width="892" height="353" alt="Screenshot 2025-10-14 at 4 04 33 PM" src="https://github.com/user-attachments/assets/011365db-82ea-4743-a247-00d51abf3e74" />
 
 ### Default Rules
-* Microservices = Big org + High sustained load + Multi-team ownership + High ops maturity + Non-lean budget Well-Structured 
-* Monolith = Small team + Low traffic + Tight latency or strong consistency + Lean ops/budget
-* Modular Monolith = Growing team(s) + Medium/high traffic + Shared deployment + Medium maturity
-* Serverless + Queue = Spiky or event-driven workloads + Limited ops capacity + Acceptable eventual consistency
+* **Microservices** = Big org + High sustained load + Multi-team ownership + High ops maturity + Non-lean budget Well-Structured 
+* **Monolith** = Small team + Low traffic + Tight latency or strong consistency + Lean ops/budget
+* **Modular Monolith** = Growing team(s) + Medium/high traffic + Shared deployment + Medium maturity
+* **Serverless + Queue** = Spiky or event-driven workloads + Limited ops capacity + Acceptable eventual consistency
 
 In human terms:
-* Monolith: “One band, one stage.”
-* Modular Monolith: “Band members with separate tracks, still in one studio.”
-* Microservices: “Multiple bands recording in separate studios, synced by producer.”
-* Serverless + Queue: “Freelancers who show up on demand when gigs appear.”
+* **Monolith:** “One band, one stage.”
+* **Modular Monolith:** “Band members with separate tracks, still in one studio.”
+* **Microservices:** “Multiple bands recording in separate studios, synced by producer.”
+* **Serverless + Queue:** “Freelancers who show up on demand when gigs appear.”
+
+In mnemonics:
+* **Story Mnemonic** - Imagine four characters working in a company:
+  * Mighty Mike (Microservices) runs the big corporation: lots of departments, lots of traffic, lots of budget.
+  * Mini Mona (Monolith) runs the small shop: one counter, few customers, every millisecond counts.
+  * Modular Molly (Modular Monolith) runs the growing franchise: still one brand, but more helpers joining.
+  * Serverless Sam (Serverless + Queue) runs the pop-up shop: only opens when there’s a rush, minimal staff, takes orders for later.
+  
+* **“Choose Your Creature” Mnemonic**
+  * :octopus: Microservices: Giant octopus — many arms, needs coordination and resources.
+  * :turtle: Monolith: Solid shell — one piece, slow to split, reliable.
+  * :racehorse: Modular Monolith: Herd of horses — move together, still one team.
+  * :butterfly: Serverless: Butterfly — light, appears when needed, short-lived.
+
+
 
 ---
 
